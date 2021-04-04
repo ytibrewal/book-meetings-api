@@ -1,0 +1,21 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "google_calander": {
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar"
+    ],
+    "tokenpath": "token.json",
+    "client_id": "617297492597-gvalj8tsifmm2i160c9uvmkio0lu7e2g.apps.googleusercontent.com",
+    "client_secret": "Dfhk6iV086UTEnsod0a5mGfm",
+    "redirect_uris": [
+      "http://localhost:3030"
+    ],
+    "myemail": "ytibrewal.yash@gmail.com"
+  }
+}
